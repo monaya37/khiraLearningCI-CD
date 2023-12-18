@@ -1,0 +1,11 @@
+name: lab 5
+on: push
+jobs:
+  Explore-GitHub-Actittons:
+   runs-on: ubuntu-latest
+   steps:
+   - name: do this
+     run: echo "this is a php line! ${{some_variable}} bye"
+   - name: do that
+     run: echo "bye bye"
+   
